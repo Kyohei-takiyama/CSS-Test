@@ -1,0 +1,49 @@
+/* ------見出し------ */
+.title {
+  color: blue;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+/* ------ナビゲーション項目------ */
+.navtab {
+  display: flex;
+  font-weight: bold;
+  list-style: none;
+  color: blue;
+  font-size: 17px;
+}
+
+.navtab li {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------見出し２　毎日を笑顔に------ */
+.title2 {
+  font-size: 50px;
+  position: relative;
+  top: 40px;
+}
+
+/* ------青色ボックス------ */
+.box {
+  width: 70%;
+  height: 250px;
+  background-color: darkblue;
+  display: block;
+}
+
+img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  position: relative;
+  top: 100px;
+  transform: translate(0, 20%);
+}
